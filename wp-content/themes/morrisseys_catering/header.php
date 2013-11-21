@@ -14,8 +14,9 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 <?php wp_head(); ?>
+<link rel="stylesheet/less" href="wp-content/themes/morrisseys_catering/less/style.less" />
+<script type="text/javascript" src="wp-content/themes/morrisseys_catering/js/less.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
