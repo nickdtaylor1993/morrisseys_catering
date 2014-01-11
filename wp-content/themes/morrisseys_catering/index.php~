@@ -16,8 +16,8 @@ get_header(); ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php
+what
+	<!--			<?php
 					/* Include the Post-Format-specific template for the content.
 					 * If you want to override this in a child theme, then include a file
 					 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
@@ -32,7 +32,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'none' ); ?>
 
-		<?php endif; ?> 
+		<?php endif; ?> ------->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

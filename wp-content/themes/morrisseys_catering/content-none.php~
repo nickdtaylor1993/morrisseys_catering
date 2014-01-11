@@ -12,6 +12,7 @@
 	<header class="page-header">
 		<h1 class="page-title"><?php _e( 'Nothing Found', 'morrisseys_catering' ); ?></h1>
 	</header><!-- .page-header ---->
+FUCK
 	<div class="page-content">
 		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
@@ -26,7 +27,7 @@
 
 			<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'morrisseys_catering' ); ?></p>
 			<?php get_search_form(); ?>
-FUCK
+
 		<?php endif; ?>
 	</div><!-- .page-content ----->
 </section><!-- .no-results ----> ---->

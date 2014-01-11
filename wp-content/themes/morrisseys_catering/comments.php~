@@ -36,7 +36,7 @@ if ( post_password_required() )
 			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'morrisseys_catering' ); ?></h1>
 			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'morrisseys_catering' ) ); ?></div>
 			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'morrisseys_catering' ) ); ?></div>
-		</nav><!-- #comment-nav-above ---->
+		</nav><!-- #comment-nav-above -->
 		<?php endif; // check for comment navigation ?>
 
 		<ol class="comment-list">
@@ -49,14 +49,14 @@ if ( post_password_required() )
 				 */
 				wp_list_comments( array( 'callback' => 'morrisseys_catering_comment' ) );
 			?>
-		</ol><!-- .comment-list ----->
+		</ol><!-- .comment-list -->
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 		<nav id="comment-nav-below" class="comment-navigation" role="navigation">
 			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'morrisseys_catering' ); ?></h1>
 			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'morrisseys_catering' ) ); ?></div>
 			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'morrisseys_catering' ) ); ?></div>
-		</nav><!-- #comment-nav-below ---->
+		</nav><!-- #comment-nav-below -->
 		<?php endif; // check for comment navigation ?>
 
 	<?php endif; // have_comments() ?>
@@ -70,4 +70,4 @@ if ( post_password_required() )
 
 	<?php comment_form(); ?>
 
-</div><!-- #comments ----> ---->
+</div><!-- #comments --> -->
