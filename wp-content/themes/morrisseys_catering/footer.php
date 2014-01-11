@@ -6,7 +6,8 @@
  *
  * @package morrisseys_catering
  */
-?> 
+?>
+<!-- 
 <div id="food-content">
 	<img id="food-menu" src="wp-content/themes/morrisseys_catering/images/banner_photos.jpg" alt="food-menu">
 	<div id="inner-box"> 
@@ -43,7 +44,7 @@
 		<p> Located in the Westbury Pharmacy Center</p>
 	</div> 
 </div>
-
+-->
 <footer class="site-footer" > 
 <p> COPYRIGHT 2013 MORRISSEY'S CATERING </p> 
 </footer> 
