@@ -34,41 +34,41 @@ get_header(); ?>
 
 		<?php endif; ?> 
 <div id="food-content">
-	<img id="food-menu" src="wp-content/themes/morrisseys_catering/images/banner_photos.jpg" alt="food-menu">
+	<h1>image</h1>
 	<div id="inner-box"> 
 		<p>Fresh. Local. Family Owned.</p>
-			<a id="menu-box" href="#"> 
-				<div> 
-				<img src="wp-content/themes/morrisseys_catering/images/icon_menu.png" alt="icon_munu"> 
-					<p> Browse Menus
-					</p>
-			</div> 
-		</a>
-	</div>
+			<a class="button" href="#"> 
+				<h1>Icon menu </h1> 	
+				<p>Browse Menus</p>  			
+			</a>
+	</div>  
 </div>
-<blockquote id="feedback"> 
-	<p> Thank you for providing us each delicious food and service for the St. Mary's
+
+
+<div class="wrapper">
+	<blockquote id="feedback"> 
+		<p> Thank you for providing us each delicious food and service for the St. Mary's
 			50th Anniversary Celebration! The food was excellent and you are all the best to work with! We are grateful for you, thank you.<br> 
-			<span>-Siobhan </span>
-	</p>
-	<div class="splitter"> 
-	</div> 
-	<br>
-	<br> 
-	<p>Many thanks for your kindness during such a sad time for us - you were so helpful. Everyone enjoyed your wonderful food at the church reception. <br> <span>-Mrs. Showalter</span></p> 
-</blockquote>
+				<span>-Siobhan </span>
+		</p>
+		<div class="splitter"> 
+		</div> 
+		<br>
+		<br> 
+		<p>Many thanks for your kindness during such a sad time for us - you were so helpful. Everyone enjoyed your wonderful food at the church reception. <br> <span>-Mrs. Showalter</span></p> 
+	</blockquote>
 
-<div id="contact-info">
-	<div id="contact-box"> 
-		<img src="wp-content/themes/morrisseys_catering/images/icon_phone.png" alt="phone.icon"> <p> (804) 592-2188</p> 
-	</div> 
-	<br>
-	<br>
-	<div class="address-info"> 
-		<p> 8901 Three Chopt Road, Suite A, Richmond, Va 23229 </p> 
-		<p> Located in the Westbury Pharmacy Center</p>
-	</div> 
-</div>
-
+	<div id="contact-info">
+		<div id="contact-box"> 
+			<img src="wp-content/themes/morrisseys_catering/images/icon_phone.png" alt="phone.icon"> <p> (804) 592-2188</p> 
+		</div> 
+		<br>
+		<br>
+		<div class="address-info"> 
+			<p> 8901 Three Chopt Road, Suite A, Richmond, Va 23229 </p> 
+			<p> Located in the Westbury Pharmacy Center</p>
+		</div> <!--address-info -->
+	</div>  <!-- contact-info" --> 
+</div> 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

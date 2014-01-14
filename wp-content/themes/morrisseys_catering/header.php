@@ -20,22 +20,23 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page"> 
 	<?php do_action( 'before' ); ?>
 
 	<header>
 		<!--	<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>-->
 		<!--	<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>-->
 			<div class="main-navigation">
-				<img class="main-logo" src="wp-content/themes/morrisseys_catering/images/logo.png" alt="logo">
-				<ul id="items">
-			        <li> <a href=""> HOME </a> </li>
-			        <li> <a href=""> ABOUT </a> </li>
-			        <li> <a href= ""> MENUS </a> </li>
-			        <li> <a href="">FAQ </a> </li>
-			        <li> <a href="">PHOTOS </a></li>
-				</ul>
-			</div>
+				<div class="wrapper">
+					<h1>Morrissey's Catering</h1>						
+							<ul id="items">
+			     		   <li> <a href=""> HOME </a> </li>
+			      		 <li> <a href=""> ABOUT </a> </li>
+			       		 <li> <a href= ""> MENUS </a> </li>
+			       		 <li> <a href="">FAQ </a> </li>
+			        	<li> <a href="">PHOTOS </a></li>
+							</ul>
+				</div>
+			</div> 
 		<!--	<h1 class="menu-toggle"><?php _e( 'Menu', 'morrisseys_catering' ); ?></h1>-->
 	<!--		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'morrisseys_catering' ); ?></a>-->
 
